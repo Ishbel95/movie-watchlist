@@ -1,0 +1,26 @@
+/* general */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+/* layout */
+h2 {
+  margin: 0;
+}
+#filmResults,
+.film-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.film-details-container {
+}
