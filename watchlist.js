@@ -1,6 +1,9 @@
-function addMovie(movieIdArray) {
-  const index = movieIdArray.indexOf(movieId);
-  console.log(index);
+const renderWatchlist = document.getElementById("filmWatchlist");
+
+function addMovie(id) {
+  console.log("hello");
 }
 
-export { addMovie };
+function removeMovie() {}
+
+export { addMovie, removeMovie };
